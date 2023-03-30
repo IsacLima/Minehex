@@ -6,4 +6,5 @@ export const Button = styled.button`
     height: 100px;
     border-radius: 10px;
     font-size: ${(props) => props.textsize};
+    margin-bottom: ${(props) => props.margin};
 `;
