@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 //dependencias do router para 'caminhar entre as paginas'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 //importo as paginas
-import Home from './routes/Home';
+import Home from './routes/Home.jsx';
 import Start from './routes/Start';
 import Options from './routes/Options';
 
