@@ -1,8 +1,8 @@
 import { Container } from "./styles"
 
-export default function ContainerFlex({children, color}) {
+export default function ContainerFlex({children}) {
     return (
-        <Container bgcolor={color}>
+        <Container>
             {children}
         </Container>
     );

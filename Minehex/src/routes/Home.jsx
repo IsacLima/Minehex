@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import MenuButton from "../components/MenuButton";
 import GlobalStyles from "../styles/global";
-import ContainerFlex from "../components/ContainerFlex";
+import Container from "../components/ContainerFlex";
 import { Link } from "react-router-dom";
 
 export default function Home(){
@@ -10,7 +10,7 @@ export default function Home(){
         <Fragment>
             <GlobalStyles/>
  
-            <ContainerFlex color="#262626">
+            <Container>
                 
                 <Link to="/start">
                     <MenuButton text='Jogar' first></MenuButton>
@@ -20,7 +20,7 @@ export default function Home(){
                     <MenuButton text='Personalizar'></MenuButton>
                 </Link>
 
-            </ContainerFlex>
+            </Container>
             
         </Fragment>
         

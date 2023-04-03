@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100vh;
         font-family: 'Quicksand', sans-serif;
         font-weight: bold;
+        background-color: #262626;
     }
 
     button{
