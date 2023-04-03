@@ -14,6 +14,11 @@ const GlobalStyle = createGlobalStyle`
     button{
         border: none;
     }
+
+    a{
+        width: auto;
+        height: auto;
+    }
 `;
 
 export default GlobalStyle;

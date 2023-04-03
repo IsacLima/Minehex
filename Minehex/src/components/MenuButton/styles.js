@@ -8,4 +8,13 @@ export const Button = styled.button`
     border-radius: 10px;
     font-size: ${(props) => props.textsize};
     margin-bottom: ${(props) => props.margin};
+
+    @media (min-width: 1024px){
+        cursor: pointer;
+
+        :hover{
+            background: #276393;
+        }
+
+    }
 `;
