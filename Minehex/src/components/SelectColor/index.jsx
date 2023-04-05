@@ -6,6 +6,7 @@ import { Container,
         Example,
         Hive 
 } from "./styles";
+import img  from "../../assets/hive-WR.png";
 
 
 export default function Selector() {
@@ -14,20 +15,20 @@ export default function Selector() {
 
             <BoxColors>
                 <Text>COR PRIMÁRIA:</Text>
-                <Colors>
-                    <Color/>
-                    <Color/>
+                <Colors width="140px">
+                    <Color bg="#262626"/>
+                    <Color bg="#E5E5E5"/>
                 </Colors>
                 <Text>COR SECUNDÁRIA:</Text>
-                <Colors>
-                    <Color/>
-                    <Color/>
-                    <Color/>
+                <Colors  width="230px">
+                    <Color bg="#F44336"/>
+                    <Color bg="#42A5F5"/>
+                    <Color bg="#CDDC39"/>
                 </Colors>
             </BoxColors>
     
             <Example>
-                <Hive/>
+                <Hive src={img}/>
             </Example>
 
         </Container>
